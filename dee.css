@@ -1,0 +1,311 @@
+/* @media screen and ( max-width:700px) {.dawn{
+    }
+ 
+}
+
+@media screen (max-width:700px) and (min-width:150px;){
+   
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dee-writes{
+    display: flex;
+    align-items: center;
+}
+
+.white{
+    width: 70%;
+    height: 100vh;
+    background: #ffffff;
+    position: relative;
+}
+
+.white nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 93.98px;
+}
+
+.logo img{
+    width: 45px;
+    height: 15px;
+}
+
+.white ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.ul{
+    position: absolute;
+    left: 50%;
+}
+
+.white ul li{
+    display: inline-block;
+}
+
+.blue{
+    width: 30%;
+    height: 100vh;
+    background: #4649FF;
+}
+
+.blue nav{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.blue nav button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.deewrites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0.5px solid #4649FF;
+    background: #ffffff;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn{
+    display: none;
+}
+
+.dee-writes p{
+    font-weight: 10;
+    width: 100%;
+}
+
+.deelibrary img{
+    width: auto;
+    height: auto;
+    left: 100%;
+}
+
+.deelibrary-1{
+    display: none;
+}
+.bottom p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    gap: 25px;
+}
+
+.rectangle-1{
+    height: 100%;
+    width: 60px;
+    background: linear-gradient(180deg, #FFFFFF 72.5%, #999999 100%);
+    ;
+    border-radius: 30px;
+}
+
+.rectangle-2{
+    height: 70%;
+    width: 60px;
+    background: white;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #FFFFFF 72.5%, #999999 100%);
+    ;
+}
+
+.rectangle-3{
+    height: 100%;
+    width: 60px;
+    background: white;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #FFFFFF 72.5%, #999999 100%);
+    ;
+}
+
+
+@media screen and (max-width: 700px){
+    .dee-writes{
+        display: flex;
+        align-items: center;
+    }
+
+    .white{
+        background: #ffffff;
+        height: 100vh;
+        width: 50%;
+    }
+
+    .blue{
+        background: #4649FF;
+        height: 100vh;
+        width: 50%;
+    }
+
+    nav .ul{
+        display: none;
+    }
+
+    nav .logo{
+        width: 35px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 35px;
+    }
+
+    .blue nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .sign-up{
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: none;
+        background: #ffffff;
+    }
+
+    .deelibrary-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .deelibrary-1 img{
+        width: 250px;
+        /* left: 50%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+    }
+
+    .deelibrary img{
+        /* width: 200px;
+        left: 50%; */
+        display: none;
+    }
+
+    .home{
+        margin: 20px;
+    }
+
+    .deewrites{
+        margin: 15px;
+    }
+
+    .deewrites button{
+        display: none;
+    }
+
+    .rectangle{
+        margin: 10px;
+    }
+
+    .rectangle-1{
+        height: 100%;
+        margin-top: 40%;
+        width: 60px;
+        background: linear-gradient(180deg, #FFFFFF 72.5%, #999999 100%);
+    ;
+        border-radius: 30px;
+    }
+
+    .rectangle-2{
+        height: 70%;
+        margin-top: 70%;
+        width: 60px;
+        background: linear-gradient(180deg, #FFFFFF 72.5%, #999999 100%);
+    ;
+        border-radius: 30px;
+    }
+
+    .rectangle-3{
+        height: 100%;
+        width: 60px;
+        background: linear-gradient(180deg, #FFFFFF 72.5%, #999999 100%);
+        ;
+        border-radius: 30px;
+        margin-left: 10px;
+    }
+
+    .btn{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn button{
+        padding: 10px 20px;
+        background: #ffffff;
+        border-radius: 8px;
+        border: 0.5px solid #4649FF;
+    }
+
+    .bottom{
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+    }
+
+    .bottom p{
+    
+        width: 100%;
+        position: absolute;
+        bottom: 3%;
+
+        text-align: center;
+    }
+}
